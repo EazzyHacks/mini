@@ -24,7 +24,7 @@ module.exports = {
       hour12: false,
     });
 
-    const info = `Ai Lurus - Nym
+    const info = `Ai Block - Nym
 
 *Versión:* ${pkg.version}
 *Autor:* Zam | Ai Lurus
@@ -42,7 +42,7 @@ module.exports = {
     await client.sendMessage(
       m.chat,
       {
-        image: { url: "https://iili.io/FsijNdG.jpg" },
+        image: { url: "https://qu.ax/WSNpz.jpg" },
         caption: info,
       },
       { quoted: m },
