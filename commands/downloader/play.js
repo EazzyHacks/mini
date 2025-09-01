@@ -66,7 +66,8 @@ const handler = async (m, { conn, text }) => {
   }, { quoted: m });
 };
 
-handler.help = ['play']
-handler.tags = ['downloader']
-handler.command = /^(play)$/i
-export default handler
+module.exports = {
+  command: ["play"],
+  description: "Descargar Audios",
+  category: "groups",
+  use: "play",
