@@ -1,11 +1,11 @@
 const fs = require("fs");
 const chalk = require("chalk");
 
-global.owner = ["5213332329453"]; //Cambia este número por el tuyo
+global.owner = ["51936994155"]; //Cambia este número por el tuyo
 global.sessionName = "lurus_session";
 global.version = "v1.0.0 | Mini";
-global.namebot = "Ai Lurus - Mini";
-global.author = "Zam | Ai Lurus";
+global.namebot = "Ai Block - Mini";
+global.author = "Zam | Ai Block";
 
 //Modifica los mensajes a tu preferencia
 global.mess = {
