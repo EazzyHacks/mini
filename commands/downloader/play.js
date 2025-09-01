@@ -67,7 +67,6 @@ const handler = async (m, { conn, text }) => {
 };
 
 module.exports = {
-  command: ["play"],
-  description: "Descargar Audios",
-  category: "groups",
-  use: "play",
+  command: ["play", "play"],
+  description: "Descarga audios
+  use: "https://www.youtube.com",
