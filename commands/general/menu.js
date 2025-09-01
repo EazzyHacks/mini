@@ -52,7 +52,7 @@ module.exports = {
 │  ${ucapan}, *${m.pushName || "Usuario"}*
 │
 │  *Mini Block*
-│  Creador  : +52 33 3232 9453
+│  Creador  : +51 936 994 155
 │  Versión  : ${version}
 │  Motor    : Baileys
 │
@@ -64,7 +64,7 @@ module.exports = {
       commands.forEach((cmd) => {
         menu += `│  !${cmd.command[0]}\n`;
       });
-      menu += `│\n`;
+      menu += `│ - `;
     }
 
     menu += `╰─────────────────────╯`;
@@ -72,7 +72,7 @@ module.exports = {
     await client.sendMessage(
       m.chat,
       {
-        image: { url: "https://i.ibb.co/P0VXh06/5faea421e58b.jpg" },
+        image: { url: "https://qu.ax/WSNpz.jpg" },
         caption: menu,
       },
       { quoted: fkontak },
