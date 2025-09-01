@@ -51,7 +51,7 @@ module.exports = {
 │
 │  ${ucapan}, *${m.pushName || "Usuario"}*
 │
-│  *Mini Lurus*
+│  *Mini Block*
 │  Creador  : +52 33 3232 9453
 │  Versión  : ${version}
 │  Motor    : Baileys
