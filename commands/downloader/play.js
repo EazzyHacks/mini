@@ -67,5 +67,7 @@ const handler = async (m, { conn, text }) => {
 };
 
 handler.command = ["play"];
+  description: "Descarga audios",
+  category: "downloader",
 handler.register = false;
 export default handler;
